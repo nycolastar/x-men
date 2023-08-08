@@ -60,12 +60,15 @@ body::before{
     height: 100%;
 }
 
+ 
 .lista-de-personagens .personagem.selecionado{
     box-shadow: 0px 0px 24px 5px #0271f7;
-   border-bottom: solid blue;
 }
 .lista-de-personagens .personagem:not(.selecionado) img {
     filter: grayscale(100%);
+}
+.lista-de-personagens .personagem.selecionado img {
+     border-bottom: solid blue;
 }
 .personagem-selecionado{
     text-align: center;
